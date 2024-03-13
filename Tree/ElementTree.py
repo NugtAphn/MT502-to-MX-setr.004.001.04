@@ -1,19 +1,4 @@
-import xml.dom.minidom
 import xml.etree.ElementTree as ET
-
-
-def remove_empty_elements(element):
-    for child in element:
-        remove_empty_elements(child)
-    if not element.text and not element.attrib and not element.getchildren():
-        element.getparent().remove(element)
-
-
-def final_xml(xml_string):
-    dom = xml.dom.minidom.parseString(xml_string)
-    output_xml = dom.toprettyxml()
-    print(output_xml)
-
 
 main = ET.Element('RedOrdr')
 
@@ -276,7 +261,6 @@ branch_6_sub_1 = ET.SubElement(branch_6, 'PlcAndNm')
 branch_6_sub_2 = ET.SubElement(branch_6, 'Txt')
 
 
-tree = ET.ElementTree(main)
-tree.write("test.xml", encoding="utf-8", xml_declaration=True)
+
 
 

@@ -53,8 +53,10 @@ def splitBlock4(line):
 
     for i in block4:
         if i[1:4] == '20C':
-            branch_1_sub_1.text = i[12:]
+            if i[6:10] == 'SEME':
+                branch_1_sub_1.text = i[5:].strip()
+            elif i[6:10] == 'COMM':
+                branch_1_sub_2.text = i[5:].strip()
 
-    final_xml(ET.tostring(main))
 
 
