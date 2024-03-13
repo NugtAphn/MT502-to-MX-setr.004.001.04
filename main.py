@@ -270,7 +270,7 @@ def setr004(block1, block2, block3, block4, block5):
         if tags[1:4] == '11A':
             branch_6_sub_2.text = tags[5:]
 
-    ET.tostring(main)
+    final_xml(ET.tostring(main))
 
 
 def final_xml(xml_string):
@@ -321,14 +321,21 @@ def openFile():
         if character[0] == '-':
             list_content_block5.append(character[3:])
 
-    print(read)
-    print(list_content_line1)
+    appID = list_content_block1[0][2:3]
+    serviceID = list_content_block1[0][3:5]
+    BIC8 = list_content_block1[0][5:13]
+    BIC11 = list_content_block1[0][5:16]
+    print(appID)
+    print(serviceID)
+    print(BIC8)
+    print(BIC11)
+
     print(list_content_block1)
     print(list_content_block2)
     print(list_content_block3)
     print(list_content_block4)
     print(list_content_block5)
-    setr004(list_content_block1, list_content_block2, list_content_block3, list_content_block4, list_content_block5)
+    # setr004(list_content_block1, list_content_block2, list_content_block3, list_content_block4, list_content_block5)
 
 
 window = Tk()
