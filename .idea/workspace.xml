@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a579f53-bb28-4ab2-b713-8c46d2ac185e" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/File/OpenFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/File/SplitString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/ElementTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MT502.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MT502.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MT502.txt" beforeDir="false" afterPath="$PROJECT_DIR$/File/MT502.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +48,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/edwar/PycharmProjects/MT-MX-convertor&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\edwar\PycharmProjects\MT to MX\File" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MT to MX" />
